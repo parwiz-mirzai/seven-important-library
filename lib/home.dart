@@ -63,7 +63,7 @@ Widget MyListTile(BuildContext context, String title, Widget destinationPage) {
     ),
   );
 }
-
+// this class is for AudioPlayer
 class AudioPlayerScreen extends StatefulWidget {
   @override
   _AudioPlayerScreenState createState() => _AudioPlayerScreenState();
@@ -101,7 +101,7 @@ class _AudioPlayerScreenState extends State<AudioPlayerScreen> {
         ));
   }
 }
-
+// this class is for sharing our app
 class ShareApp extends StatefulWidget {
   const ShareApp({super.key});
 
@@ -140,7 +140,7 @@ class _ShareAppState extends State<ShareApp> {
     );
   }
 }
-
+// this class is for go to in an url
 // ignore: camel_case_types
 class Url_luncher extends StatefulWidget {
   const Url_luncher({super.key});
@@ -173,7 +173,7 @@ class _Url_luncherState extends State<Url_luncher> {
     )));
   }
 }
-
+// this class is for navigation_bar
 class HomePage_1 extends StatefulWidget {
   const HomePage_1({super.key});
 
@@ -211,7 +211,7 @@ class _HomePageState_1 extends State<HomePage_1> {
     );
   }
 }
-
+// from here it dependes on the date picker
 List Months = [
   "حمل",
   "ثور",
@@ -293,7 +293,7 @@ class _Date_PageState extends State<Date_Page> {
     );
   }
 }
-
+// this class is for the getting the location 
 class MyApp extends StatefulWidget {
   const MyApp({super.key});
 
